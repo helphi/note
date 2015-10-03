@@ -1,6 +1,7 @@
 # 在linux中构建与执行
 
-```
+
+```bash
 export GOPATH=$GOPATH:$PWD
 mkdir bin
 cd bin
@@ -12,7 +13,8 @@ go build calc
 ```
 
 # 在windows中构建与执行
-```
+
+```cmd
 set GOPATH=%GOPATH%;%CD%
 mkdir bin
 cd bin
