@@ -58,6 +58,8 @@ func main() {
 	}
 	fmt.Printf("len=%v,cap=%v\n", len(mySlice), cap(mySlice))
 
+
+
 	mySlice2 := []int{8, 9, 10}
 	// 给mySlice后面添加另一个数组切片
 	mySlice = append(mySlice, mySlice2...)
@@ -86,5 +88,15 @@ func main() {
 	for _, v := range slice2 {
 		fmt.Print(v, " ")
 	}
+	
+	fmt.Print("\nmyArray:")
+	fmt.Println(myArray)
+	mySlice = myArray[:5]
+	fmt.Print("mySlice:")
+	fmt.Println(mySlice)
+	mySlice[4] = 100 // 改变数据切片的值也会引向数组
+	fmt.Print("myArray:")
+	fmt.Println(myArray)
 }
+
 
