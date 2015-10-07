@@ -5,6 +5,13 @@ import "fmt"
 func main() {
 	var a Integer = 1
 	var b LessAdder = &a
+	//var b LessAdder = a // error
+
+	switch v := b.(type) {
+	default:
+		fmt.Println(v)
+	}
+
 	b.Add(1)
 	fmt.Println(a)
 	fmt.Println(&a)
