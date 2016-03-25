@@ -16,6 +16,7 @@ wget https://get.docker.com/builds/Linux/x86_64/docker-1.9.1
 - 常用启动指令 `http_proxy=http://172.17.18.84:8080 https_proxy=http://172.17.18.84:8080 docker --registry-mirror=https://6pzhi4th.mirror.aliyuncs.com daemon --bip=172.172.172.1/24`
 
 - 错误处理1：
+
 ```
 FATA[0000] Error mounting devices cgroup: mountpoint for devices not found
 ```
@@ -25,3 +26,7 @@ FATA[0000] Error mounting devices cgroup: mountpoint for devices not found
 ```
 none        /sys/fs/cgroup        cgroup        defaults    0    0
 ```
+
+# 常用指令
+
+- 从非官方库拉取镜像 `docker pull 6pzhi4th.mirror.aliyuncs.com/library/ubuntu:14.04`
