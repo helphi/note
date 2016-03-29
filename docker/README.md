@@ -31,3 +31,4 @@ none        /sys/fs/cgroup        cgroup        defaults    0    0
 - 启动时使用镜像 `docker --registry-mirror=https://6pzhi4th.mirror.aliyuncs.com daemon` 其中 `--registry-mirror` 可以指定多个
 - 从非官方库拉取镜像 `docker pull 6pzhi4th.mirror.aliyuncs.com/library/ubuntu:14.04`
 - 删除所有已停止容器 `docker rm $(docker ps -a -q)`
+- 进入容器 `docker exec -it ID bash`
