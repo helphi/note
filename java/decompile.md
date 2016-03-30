@@ -14,7 +14,7 @@ jad 是一款使用非常广泛地 Java 反编译工具，官网 <http://www.var
 
 ### 链接
 
-- 360盘 `所有文件\Soft\jad`
+- 360盘 `所有文件\software\jad`
 
 # jadclipse
 
@@ -30,7 +30,7 @@ JadClipse 是基于上面介绍的 jad 的 eclipse 插件，是一款非常实�
 
 ### 链接
 
-- 360盘 `所有文件\Soft\eclipse-plugins\jadclipse`
+- 360盘 `所有文件\software\eclipse-plugins\jadclipse`
 
 # JD-GUI
 
@@ -40,7 +40,7 @@ JD-GUI 是一个用 C++ 开发的 Java 反编译工具，由 Pavel Kouznetsov �
 
 - 官网 <http://jd.benow.ca/>
 - GitHub <https://github.com/java-decompiler/jd-gui>
-- 360盘 `所有文件\Soft\jad`
+- 360盘 `所有文件\software\jad`
 
 # JD-Eclipse
 
@@ -58,4 +58,4 @@ JD-GUI 是一个用 C++ 开发的 Java 反编译工具，由 Pavel Kouznetsov �
 
 - 官网 <http://jd.benow.ca/>
 - GitHub <https://github.com/java-decompiler/jd-eclipse>
-- 360盘 `所有文件\Soft\eclipse-plugins\jd-eclipse`
+- 360盘 `所有文件\software\eclipse-plugins\jd-eclipse`
