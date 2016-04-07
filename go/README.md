@@ -1,3 +1,24 @@
+# 链接
+
+- 官网 <http://golang.org/>
+- 在线运行go代码 <http://play.golang.org/>
+- 下载 <https://golang.org/dl/>
+- go on github <https://github.com/golang/go>
+- go语言中文网 <http://studygolang.com/> // 提供下载及文档
+- golang中国 <http://www.golangtc.com/> // 提供下载及文档
+- gobyexample <https://gobyexample.com/>
+- go数据库开发 <http://go-database-sql.org/>
+
+# 同时安装多套环境
+
+```sh
+mkdir d:%HOMEPATH%\gosrc
+mkdir d:%HOMEPATH%\gopath-1.3.1
+mkdir d:%HOMEPATH%\gopath-1.4.2
+mklink /j d:%HOMEPATH%\gopath-1.3.1\src d:%HOMEPATH%\gosrc
+mklink /j d:%HOMEPATH%\gopath-1.4.2\src d:%HOMEPATH%\gosrc
+```
+
 # 基础类型
 
 - 布尔类型：bool
