@@ -4,6 +4,7 @@
 - 在线运行go代码 <http://play.golang.org/>
 - 下载 <https://golang.org/dl/>
 - go on github <https://github.com/golang/go>
+- go doc <https://godoc.org/>
 - go语言中文网 <http://studygolang.com/> // 提供下载及文档
 - golang中国 <http://www.golangtc.com/> // 提供下载及文档
 - gobyexample <https://gobyexample.com/>
