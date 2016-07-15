@@ -1,15 +1,16 @@
 # 离线安装
 
 ```sh
-wget https://get.daocloud.io/docker/builds/Linux/x86_64/docker-1.10.3
-chmod +x docker-1.10.3
-mv docker-1.10.3 /usr/local/bin/docker
+wget https://get.daocloud.io/docker/builds/Linux/x86_64/docker-1.11.2.tgz
+tar zxf docker-1.11.2.tgz
+mv docker/* /usr/local/bin/
 docker daemon
 ```
 
 - 其他版本
 
 ```sh
+wget https://get.daocloud.io/docker/builds/Linux/x86_64/docker-1.10.3
 wget https://get.docker.com/builds/Linux/x86_64/docker-1.9.1
 ```
 
