@@ -1,3 +1,9 @@
+# 在线安装
+
+```sh
+curl -sSL https://get.docker.com/ | sh
+```
+
 # 离线安装
 
 ```sh
