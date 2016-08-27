@@ -9,7 +9,7 @@ curl -sSL https://get.docker.com/ | sh
 ```sh
 wget https://get.daocloud.io/docker/builds/Linux/x86_64/docker-1.12.1.tgz
 tar zxf docker-1.12.1.tgz
-mv docker/* /usr/local/bin/
+sudo mv docker/* /usr/local/bin/
 ```
 
 - 其他版本
@@ -39,7 +39,10 @@ echo "none /sys/fs/cgroup cgroup defaults 0 0" >> /etc/fstab
 - 示例
 
 ```sh
-dockerd --registry-mirror=https://6pzhi4th.mirror.aliyuncs.com --bip=172.172.172.1/24 2>&1 > /var/log/docker &
+sudo su
+groupadd docker
+usermod -aG docker hefei
+dockerd --registry-mirror=https://6pzhi4th.mirror.aliyuncs.com --bip=172.172.172.1/24 > /var/log/docker 2>&1 &
 ```
 
 # 常用指令
