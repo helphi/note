@@ -15,3 +15,5 @@ Ubuntu 是基于Debian GNU/Linux，支持x86、amd64（即x64）和ppc架构，�
 
 - [修改apt源](apt.sources.md)
 - [代理设置](proxy.md)
+- [关于环境变量](env.md)
+- [图形界面/文字界面](startx.md)

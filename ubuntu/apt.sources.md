@@ -17,7 +17,7 @@ deb http://mirrors.ustc.edu.cn/ubuntu/ precise-backports main restricted univers
 deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-backports main restricted universe multiverse
 ```
 
--搜狐
+- 搜狐
 
 ```sh
 deb http://mirrors.sohu.com/ubuntu/ precise-updates main restricted
