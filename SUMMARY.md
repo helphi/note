@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [docker](docker/README.md)
+* [Docker](docker/README.md)
 
