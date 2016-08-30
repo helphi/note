@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [CentOS]()
+* [CentOS](centos/README.md)
 * [Docker](docker/README.md)
 
