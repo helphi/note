@@ -46,10 +46,5 @@ usermod -aG docker hefei
 dockerd --registry-mirror=https://6pzhi4th.mirror.aliyuncs.com --bip=172.172.172.1/24 > /var/log/docker 2>&1 &
 ```
 
-# 常用指令
 
-- 从非官方库拉取镜像 `docker pull 6pzhi4th.mirror.aliyuncs.com/library/ubuntu:14.04`
-- 删除所有已停止容器 `` docker rm `docker ps -a -q` ``
-- 删除所有<none>镜像 `` docker rmi `docker images -q -f "dangling=true"` ``
-- 进入容器 `docker exec -it ID bash`
 
