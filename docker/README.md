@@ -1,12 +1,12 @@
 # 在线安装
 
-```sh
+```bash
 curl -sSL https://get.docker.com/ | sh
 ```
 
 # 离线安装
 
-```sh
+```bash
 wget https://get.daocloud.io/docker/builds/Linux/x86_64/docker-1.12.1.tgz
 tar zxf docker-1.12.1.tgz
 sudo mv docker/* /usr/local/bin/
@@ -14,7 +14,7 @@ sudo mv docker/* /usr/local/bin/
 
 * 其他版本
 
-```sh
+```bash
 wget https://get.daocloud.io/docker/builds/Linux/x86_64/docker-1.11.2.tgz
 wget https://get.daocloud.io/docker/builds/Linux/x86_64/docker-1.10.3
 wget https://get.docker.com/builds/Linux/x86_64/docker-1.9.1
@@ -28,7 +28,7 @@ FATA[0000] Error mounting devices cgroup: mountpoint for devices not found
 
 这个错误为cgroup在宿主机上没有挂载，在 `/etc/fstab` 结尾添加如下代码然后重启
 
-```sh
+```bash
 echo "none /sys/fs/cgroup cgroup defaults 0 0" >> /etc/fstab
 ```
 
