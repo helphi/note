@@ -1,28 +1,11 @@
-# 根据 ip 找 mac 地址
+# 链接
 
-```bash
-arp -d *
-ping $ip
-arp -a
-```
+- 微软开发网络 <https://msdn.microsoft.com/zh-cn/>  
+- 微软技术网络 <https://technet.microsoft.com/zh-cn/>  
+- 微软虚拟学院 <http://www.microsoftvirtualacademy.com/>  
 
-> arp 指令只能查找本网段的 mac 地址
+# 目录
 
-# 根据 ip 查主机名
-
-- `nbtstat -A $ip`
-- `ping -a $ip`
-
-> linux 使用 `nmblookup -A $ip`
-
-# ping 一个网段的 ip
-
-```bash
-for /l %%i in (2,1,254) do ping -n 1 -w 1 172.26.3.%%i
-```
-
-# 删除某个目录下所有的 `.svn` 文件夹
-
-```bash
-for /r %%d in (.) do if exist "%%d\.svn" rd /s /q "%%d\.svn"
-```
+- [常用命令](common.md)
+- [常用批处理](batch.md)
+- [常用批注册表](registry.md)
