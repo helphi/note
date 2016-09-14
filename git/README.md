@@ -1,6 +1,6 @@
 # ubuntu 上安装 git
 
-```sh
+```bash
 sudo add-apt-repository ppa:git-core/ppa # 使用最新的 git 源安装最新的 git，不执行这句则使用默认源安装固定的版本
 sudo apt-get update
 sudo apt-get install git
