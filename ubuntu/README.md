@@ -10,6 +10,7 @@ Ubuntu 是基于Debian GNU/Linux，支持x86、amd64（即x64）和ppc架构，�
 - 上海交大镜像 <ftp://ftp.sjtu.edu.cn/ubuntu-cd/> + <http://ftp.sjtu.edu.cn/ubuntu-cd/>
 - 源码 <http://kernel.ubuntu.com/git/>
 - 360盘 `所有文件\software\ubuntu`
+- 安装 windows+linux 双系统 <http://apcmag.com/how_to_dual_boot_linux_and_windows_xp_linux_installed_first.htm>
 
 # 目录
 
@@ -17,3 +18,4 @@ Ubuntu 是基于Debian GNU/Linux，支持x86、amd64（即x64）和ppc架构，�
 - [代理设置](proxy.md)
 - [关于环境变量](env.md)
 - [图形界面/文字界面](startx.md)
+- [grub](grub.md)

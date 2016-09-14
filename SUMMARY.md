@@ -1,7 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
+* [AIX](aix/README.md)
 * [CentOS](centos/README.md)
+* [Chrome](chrome/README.md)
 * [Docker](docker/README.md)
 * [Eclipse](eclipse/README.md)
 * [FindBugs](findbugs/README.md)
