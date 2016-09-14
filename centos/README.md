@@ -12,3 +12,8 @@ CentOS (Community Enterprise Operating System，社区企业操作系统) 是一
 - 阿里镜像 <http://mirrors.aliyun.com/centos/>
 - 源码 <https://git.centos.org/>
 - 360盘 `所有文件\software\centos`
+
+# 目录
+
+- [常用命令](common.md)
+- [网络文件夹共享](share.md)
