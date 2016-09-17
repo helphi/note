@@ -1,6 +1,7 @@
 # 链接
 
 - 官网 <http://www.vim.org/>
+- 文档 <http://vimdoc.sourceforge.net/>
 - vim on github <https://github.com/vim/vim>
 - Learn Vim Progressively <http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/>
 - Learn Vim Progressively 翻译 <http://www.oschina.net/translate/learn-vim-progressively>
