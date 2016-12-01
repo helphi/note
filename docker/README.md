@@ -53,7 +53,7 @@ docker pull 6pzhi4th.mirror.aliyuncs.com/library/ubuntu:14.04
 ```
 - 删除所有已停止容器
 ```bash
-docker rm $(docker ps -a -q)
+docker rm $(docker ps -aq)
 ```
 - 删除所有 `<none>` 镜像 
 ```bash
