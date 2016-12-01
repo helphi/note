@@ -59,7 +59,7 @@ docker rm $(docker ps -a -q)
 ```bash
 docker rmi $(docker images -qf dangling=true)
 ```
-- 
+- 删除所有未在使用的数据卷
 ```bash
 docker volume rm $(docker volume ls -qf dangling=true)
 ```
