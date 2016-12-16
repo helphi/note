@@ -70,6 +70,6 @@ docker exec -it ID bash
 
 - 创建一个和宿主机同网段的网络
 ```bash
-docker network create -d macvlan --subnet=192.168.1.0/24 --gateway=192.168.1.1 -o parent=eth0 mynet
-docker run --net=mynet --ip=192.168.1.100 -it --rm alpine sh
+docker network create -d macvlan --subnet=192.168.1.0/24 --gateway=192.168.1.1 -o parent=eth0 macvlan
+docker run --net=macvlan --ip=192.168.1.100 -it --rm alpine sh
 ```
