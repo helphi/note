@@ -41,7 +41,7 @@ echo "none /sys/fs/cgroup cgroup defaults 0 0" >> /etc/fstab
 ```bash
 sudo su
 groupadd docker
-usermod -aG docker hefei
+usermod -aG docker hefei #need logout and login again
 dockerd --registry-mirror=https://6pzhi4th.mirror.aliyuncs.com --bip=172.172.172.1/24 > /var/log/docker 2>&1 &
 ```
 
@@ -68,3 +68,8 @@ docker volume rm $(docker volume ls -qf dangling=true)
 docker exec -it ID bash
 ```
 
+- 创建一个和宿主机同网段的网络
+```bash
+docker network create -d macvlan --subnet=192.168.1.0/24 --gateway=192.168.1.1 -o parent=eth0 mynet
+docker run --net=mynet --ip=192.168.1.100 -it --rm alpine sh
+```
