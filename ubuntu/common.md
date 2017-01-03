@@ -7,5 +7,6 @@
 - 16.04 安装搜狗输入法 
 ```bash
 sudo echo "deb http://archive.ubuntukylin.com:10006/ubuntukylin xenial main" > /etc/apt/sources.list.d/ubuntukylin.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D259B7555E1D3C58
 sudo apt update && apt install sogoupinyin  
 ```
