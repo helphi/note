@@ -3,10 +3,12 @@
 - Ubuntu 16.04 Unity 启动器移动到桌面底部 `gsettings set com.canonical.Unity.Launcher launcher-position Bottom`
 - Ubuntu 16.04 Unity 启动器移动到桌面 `gsettings set com.canonical.Unity.Launcher launcher-position Left`
 - 安装媒体解码器 `sudo apt install ubuntu-restricted-extras`
-- 安装常用软件 `sudo apt-get install git vim openssh-server wps-office`
+- 安装常用软件 `sudo apt-get install git vim openssh-server wps-office unrar`
 - 16.04 安装搜狗输入法 
 ```bash
 sudo echo "deb http://archive.ubuntukylin.com:10006/ubuntukylin xenial main" > /etc/apt/sources.list.d/ubuntukylin.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D259B7555E1D3C58
 sudo apt update && apt install sogoupinyin  
 ```
+- 允许windows远程连接
+`sudo apt-get install dconf-editor && dconf-editor` 展开 org > gnome > desktop > remote-access，取消 requlre-encryption 项
