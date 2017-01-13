@@ -10,5 +10,8 @@ sudo echo "deb http://archive.ubuntukylin.com:10006/ubuntukylin xenial main" > /
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D259B7555E1D3C58
 sudo apt update && apt install sogoupinyin  
 ```
-- 允许windows远程连接
-`sudo apt-get install dconf-editor && dconf-editor` 展开 org > gnome > desktop > remote-access，取消 requlre-encryption 项
+- 允许远程桌面连接
+```sh
+gsettings set org.gnome.Vino enabled true
+gsettings set org.gnome.Vino require-encryption false
+```
