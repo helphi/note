@@ -2,7 +2,7 @@
 
 - Ubuntu 16.04 Unity 启动器移动到桌面底部 `gsettings set com.canonical.Unity.Launcher launcher-position Bottom`
 - Ubuntu 16.04 Unity 启动器移动到桌面 `gsettings set com.canonical.Unity.Launcher launcher-position Left`
-- 软件卸载 `sudo apt remove libreoffice-common unity-webapps-common fonts-noto-cjk`
+- 软件卸载 `sudo apt remove libreoffice-common unity-webapps-common`
 - 安装媒体解码器 `sudo apt install ubuntu-restricted-extras`
 - 安装常用软件 `sudo apt-get install git vim openssh-server wps-office unrar ttf-wqy-microhei`
 - 16.04 安装搜狗输入法 
