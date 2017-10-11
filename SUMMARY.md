@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [介绍](README.md)
 * [AIX](aix/README.md)
 * [CentOS](centos/README.md)
 * [Chrome](chrome/README.md)
